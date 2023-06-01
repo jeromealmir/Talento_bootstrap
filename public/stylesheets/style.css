@@ -1,0 +1,33 @@
+body {
+  background-image: url("/images/Background.png");
+  background-color: #A1CDFF;
+  padding-top: 40px;
+  background-color: #eee;
+}
+
+.carousel {
+  background: rgba(255, 255, 255, 0.5); 
+}
+
+.transparent-bg {
+  background: rgba(255, 255, 255, 0.206);
+}
+
+.sub-background {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: auto;
+  height: auto;
+  max-width: 25%;
+  min-width: 200px;
+  z-index: -1;
+}
+
+.fade_rule {
+  height: 4px;
+  background-color: #ffffff10;
+  width: 100%;
+  margin-bottom: 10px;
+  background-image: -webkit-gradient( linear, left bottom, right bottom, color-stop(0.02, rgba(255, 255, 255, 0)), color-stop(0.5, rgba(65, 99, 173, 0.303)), color-stop(0.98, rgba(255, 255, 255, 0)) );
+}

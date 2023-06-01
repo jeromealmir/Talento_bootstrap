@@ -1,0 +1,23 @@
+{
+  "name": "talento-bootstrap",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "nodemon ./bin/www -e ejs,js,html,css"
+  },
+  "dependencies": {
+    "bootstrap": "^5.2.3",
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "express": "~4.16.1",
+    "http-errors": "~1.6.3",
+    "jade": "~1.11.0",
+    "morgan": "~1.9.1"
+  },
+  "devDependencies": {
+    "jquery": "^3.7.0",
+    "nodemon": "^2.0.22",
+    "popper.js": "^1.16.1",
+    "reload": "^3.2.1"
+  }
+}
